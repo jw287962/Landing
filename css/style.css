@@ -105,3 +105,54 @@ background-color: #3882F6;
 border-radius: 10px;
 border: 20px;
 }
+.body{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.info{
+  
+    font-size:38px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.illustrations,.pictextcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 50px;
+
+
+}
+.square{
+    border: solid 3px;
+   
+    border-radius: 15px;
+    border-color: #3882F6;
+}
+
+.piccontainer,.pictextcontainer{
+    display: flex;
+    
+   
+}
+.piccontainer{
+    
+    flex-direction: column;
+}
+
+.pictext, .square{
+    min-width: 100px;
+    min-height: 100px;
+    width: 110px; 
+   
+    display: flex;
+}
+.pictext{
+    margin-top: -50px;
+    margin-left: 8px;
+}
