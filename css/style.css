@@ -203,6 +203,9 @@ justify-content: flex-end;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
 }
 
 .action{
